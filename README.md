@@ -33,7 +33,7 @@
  - [x] 橙光游戏app每日签到+登陆奖励领取
  - [x] [龙空](lkong.cn)每日签到
  - [x] [NGA论坛](http://bbs.nga.cn/)每日签到
- - [x] [SF轻小说app](http://book.sfacg.com)每日签到+每日任务
+ - [ ] ~~[SF轻小说app](http://book.sfacg.com)每日签到+每日任务~~
  - [x] [mt论坛](https://bbs.binmt.cc/?fromuid=14593)每日签到
  - [x] [经管之家](https://bbs.pinggu.org/?fromuid=11925701)每日签到
  - [x] [好游快爆](https://huodong3.3839.com/n/hykb/friend/yaoqing.php?u=21039293)全任务(签到，分享/下载/体验游戏，抖音任务，邀请下载，照料好友),下载安装后首页搜索99999领取新人福利,爆米花可兑换实物周边,虚拟兑换码等
@@ -73,7 +73,7 @@
  - [x] 瞻彼文学app每日签到
  - [x] 云原神每日签到
  - [x] Qoo app 每日签到
- - [x] [天使动漫](https://tsdm.live/forum.php?mobile=yes)每日签到and打工
+ - [x] [天使动漫](https://tsdm.live/forum.php?mobile=yes)每日签到and打工 `tsdmsign为单独的签到模块，tsdmwork为单独的打工模块`
  - [x] [耽漫](99fuman.com)每日签到
  - [x] [轻之文库](www.linovel.net)每日签到
  - [x] [游戏动力app]()每日任务
@@ -88,14 +88,24 @@
  - [x] 次元姬小说每日任务
  - [x] [AME字幕论坛](https://bbs.acgrip.com/)每日签到
  - [x] [黑丝次元](https://heisi.moe/)每日签到
-</details>
  - [x] [克拉漫播]()每日签到
  - [x] [库街区](https://www.kurobbs.com/download.html)每日任务
+ - [x] [linkai](https://chat.link-ai.tech/home?share=GBoWyH)每日签到 
+ - [x] [泡芙加速器](https://paofujiasu.com/)每日签到+看广告+兑换（抓包vx小程序）
+ - [x] [海贼王论坛](https://bbs.talkop.com/)每日签到
+ - [x] [共创世界](https://www.ccw.site/)每日签到
+ - [x] [月影别墅]()每日任务
+ - [x] [科研通](https://www.ablesci.com)每日签到
+ - [x] [pdg2pdf](https://www.pdg2pdf.com/)每日签到
+ - [x] [高清mp4](https://mp4fan.org/)每日登录
+ - [x] [Go柄](https://gobing.cn/)每日签到
+ - [x] [小白云盘](https://xiaobai.mom/)每日签到
+
 </details>
 
  
 # 使用方法 (懂得自然懂 bushi  
-[教程：关于如何使用termux运行签到盒那件事](https://blog.1oner.cn/posts/termux-checkbox/)  
+[教程：关于如何使用termux运行签到盒那件事](https://blog.1oner.cn/p/termux-checkbox/)  
 termux可以使用crontab设置定时任务  
 写法参见crontab.list
 
@@ -132,6 +142,22 @@ ql repo https://github.com/Wenmoux/checkbox.git "checkbox|install" "old" "module
 <details>
 <summary>更新日志</summary>
 
+- 2024-07-18 新增[小白云盘](https://xiaobai.mom/)每日签到
+- 2024-05-20 新增vocechat bot推送
+- 2024-04-20 Go柄自动签到任务
+- 2024-03-22 克拉漫播增加时长挂机任务
+- 2024-03-02 克拉漫播增加更多任务
+- 2024-02-15
+   - 新增[pdg2pdf](https://www.pdg2pdf.com/)每日签到
+   - 新增[高清mp4](https://mp4fan.org/)每日登录
+- 2024-02-09 新增月影别墅签到
+- 2024-1-19 更新修复魅族社区每日任务  
+- 2024-01-01 
+   - 新增[共创世界](https://www.ccw.site/)每日签到
+   - 新增科研通每日签到  
+- 2023-11-23 新增[海贼王论坛](https://bbs.talkop.com/)每日签到 by LinYuanovo
+- 2023-11-22 新增[泡芙加速器](https://paofujiasu.com/)每日签到+看广告+兑换 by LinYuanovo
+- 2023-10-23 新增[linkai](https://chat.link-ai.tech/home?share=GBoWyH)每日签到 
 - 2023-06-03 新增医生圈每日任务
 - 2023-04-30 新增阿里云盘签到 by yiyule10
 - 2023-04-07 新增库街区每日任务 by星落黎明

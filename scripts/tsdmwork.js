@@ -4,12 +4,7 @@ const rules = {
     url: "https://www.tsdm39.com/plugin.php?id=dsu_paulsign:sign&mobile=yes", //用于获取formhash的链接     
     formhash: 'formhash=(.+?)\&', //formhash正则
     verify: "您需要先登录才能继续本操作", //验证cookie状态
-    op: [{
-            name: "签到",
-            method: "post",
-            url: "https://www.tsdm39.com/plugin.php?id=dsu_paulsign:sign&operation=qiandao&infloat=0&inajax=0&mobile=yes", //签到链接
-            data: "formhash=@formhash&qdxq=kx&qdmode=3&todaysay=&fastreply=1"
-        },
+    op: [
         {
             name: "打工",
             ua: "pc",
@@ -18,7 +13,7 @@ const rules = {
             data: "act=getcre"
         }]
 };
-async function tsdm() {
+async function tsdmwork() {
 var sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
    const template = await require("../Template");
     for(i=0;i<8;i++) {    
@@ -29,4 +24,4 @@ var sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
     }    
     return rules.name + await template(rules)
 }
-module.exports = tsdm
+module.exports = tsdmwork
